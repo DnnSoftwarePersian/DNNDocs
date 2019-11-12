@@ -13,7 +13,7 @@ Thanks for being awesome & contributing to DNN Docs! Our community is better bec
 
 GitHub is a web-based hosting service for version control using Git. If you're not familiar with Git and/or GitHub, no worries! Having our documentation center on GitHub brings many benefits to our community as we can now build DNN documentation in the open, together, as a community. If you see areas for improvement or gaps in the documentation, you can easily update and/or fill those gaps. DNN Docs will be a living and breathing, community generated, collection of awesome learning materials moving forward.
 
-DNN Docs are located on GitHub at [https://github.com/DNNCommunity/DNNDocs](https://github.com/DNNCommunity/DNNDocs).  
+DNN Docs are located on GitHub at [https://github.com/DnnSoftwarePersian/DNNDocs](https://github.com/DnnSoftwarePersian/DNNDocs).  
 
 ## How DNN Docs are Generated
 

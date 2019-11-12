@@ -18,21 +18,21 @@ Now that you've gotten DNN Docs running locally (congrats BTW!) we will talk thr
 
 ## Steps to Edit an Article & Create a Pull Request
 
-1. Fork the [DNN Docs Repo](https://github.com/DNNCommunity/DNNDocs) into your own Repo.
+1. Fork the [DNN Docs Repo](https://github.com/DnnSoftwarePersian/DNNDocs) into your own Repo.
    ![Fork DNN Docs Screenshot](/images/fork-screenshot.jpg)
 
 
 
 2. Set your remote repositories. We will use the terms "upstream" and "origin". When you originally cloned the repo (in the "Getting DNN Docs Running Locally" pre-requisite) the ```origin``` was added for you implicitly.
 
-   Type ```git remote add upstream https://github.com/DNNCommunity/DNNDocs``` to add the main DNN Docs repo as your "upstream" repo
+   Type ```git remote add upstream https://github.com/DnnSoftwarePersian/DNNDocs``` to add the main DNN Docs repo as your "upstream" repo
 
    > [!NOTE]
    > Remotes can be named anything you like. Find out your remotes by typing ```git remote -v```
 
    Type ```git remote -v``` to list your remotes. If you are new to Git then you should have 2 remotes. Your ```origin``` and ```upstream``` where ```origin``` is your forked repo and your ```upstream``` is the main DNN Docs repo.
 
-3. Create an [Issue](https://github.com/DNNCommunity/DNNDocs/issues) on GitHub that corresponds with the edit you're working on by clicking the "New Issue" button in the browser. Be sure to include relevant information providing context to the issue in the description/comment section. This helps reviewers understand what you're working on. 
+3. Create an [Issue](https://github.com/DnnSoftwarePersian/DNNDocs/issues) on GitHub that corresponds with the edit you're working on by clicking the "New Issue" button in the browser. Be sure to include relevant information providing context to the issue in the description/comment section. This helps reviewers understand what you're working on. 
 
     Make note of the issue number that GitHub generates.
 

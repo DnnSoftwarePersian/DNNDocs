@@ -24,7 +24,7 @@ After installing DocFX, the next step is to clone this repo.  'Cloning the repo'
 
 Note the following example command clones the repo to the location of `c:\dev`. Update the `c:\dev` location to your location of choice on your machine.
 ```
-c:\dev> git clone https://github.com/DNNCommunity/DNNDocs.git
+c:\dev> git clone https://github.com/DnnSoftwarePersian/DNNDocs.git
 ```
 
 The previous command will have created a folder called `DNNDocs` in the `c:\dev` folder. Navigate to that directory by using the cd (Change Directory) command. `cd` into the `DNNDocs` folder.
