@@ -1,4 +1,4 @@
-# DNN Platform Documentation
+# DNN Platform Documentation (Persian)
 
 The documentation site for the open source Content Management System DNN (formerly DotNetNuke).
 
