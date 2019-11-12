@@ -30,7 +30,7 @@
   ],
   "build": {
     "sitemap": {
-      "baseUrl": "https://dnndocs.com/"
+      "baseUrl": "https://dnndocs.ir/"
     },
     "content": [
       {
@@ -55,7 +55,7 @@
     "globalMetadata": {
       "_appLogoPath": "images/dnn_docs_logo.png",
       "_gitContribute": {
-        "repo": "https://github.com/DNNCommunity/DNNDocs.git",
+        "repo": "https://github.com/DnnSoftwarePersian/DNNDocs.git",
         "branch": "master"
       }
     },
