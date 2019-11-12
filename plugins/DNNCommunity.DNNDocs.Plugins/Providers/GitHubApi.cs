@@ -15,7 +15,7 @@ namespace DNNCommunity.DNNDocs.Plugins.Providers
             GitHub gitHubInfo = GetGitHubInfo(models);
             if (gitHubInfo != null && gitHubInfo.MyAccessToken != "")
             {
-                var contributorsEndpoint = "https://api.github.com/repos/DNNCommunity/DNNDocs/contributors?access_token=" + gitHubInfo.MyAccessToken;
+                var contributorsEndpoint = "https://api.github.com/repos/DnnSoftwarePersian/DNNDocs/contributors?access_token=" + gitHubInfo.MyAccessToken;
                 var resultsAsJson = MakeRequest(contributorsEndpoint);
                 var contributors = JsonConvert.DeserializeObject<List<Contributor>>(resultsAsJson);
                 return contributors;
@@ -32,7 +32,7 @@ namespace DNNCommunity.DNNDocs.Plugins.Providers
             GitHub gitHubInfo = GetGitHubInfo(models);
             if (gitHubInfo != null && gitHubInfo.MyAccessToken != "")
             {
-                var commitsEndpoint = "https://api.github.com/repos/DNNCommunity/DNNDocs/commits?access_token=" + gitHubInfo.MyAccessToken;
+                var commitsEndpoint = "https://api.github.com/repos/DnnSoftwarePersian/DNNDocs/commits?access_token=" + gitHubInfo.MyAccessToken;
                 if (path != "") {
                     commitsEndpoint = commitsEndpoint + "&path=" + path;
                 }
