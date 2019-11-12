@@ -17,7 +17,7 @@ DNN Docs are located on GitHub at [https://github.com/DnnSoftwarePersian/DNNDocs
 
 ## How DNN Docs are Generated
 
-The DNN Docs system uses [DocFx](https://dotnet.github.io/docfx/), [Markdown](https://en.wikipedia.org/wiki/Markdown), and GitHub to ultimately output a staticly generated site, which is currently located at [DNNDocs.com](http://www.DNNDocs.com). You don't have to understand the components that are used to generate the Docs in order to contribute.
+The DNN Docs system uses [DocFx](https://dotnet.github.io/docfx/), [Markdown](https://en.wikipedia.org/wiki/Markdown), and GitHub to ultimately output a staticly generated site, which is currently located at [dnndocs.ir](http://www.dnndocs.ir). You don't have to understand the components that are used to generate the Docs in order to contribute.
 
 ## Authoring & Editing Content in DNN Docs
 
