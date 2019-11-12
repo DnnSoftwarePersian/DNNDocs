@@ -23,14 +23,14 @@ exports.getFeedbackHref = getFeedbackHref;
 
 function getHtmlUrl(_path) {
     if (!_path) return '';
-    var dnndocsBaseUrl = 'https://dnndocs.com/';
+    var dnndocsBaseUrl = 'https://dnndocs.ir/';
     var htmlurl = dnndocsBaseUrl + _path.replace('.md', '.html');
     return htmlurl;
 }
 
 function getTwitterShareHref(_path, title) {
     if (!_path) return '';
-    var dnndocsBaseUrl = 'https://dnndocs.com/';
+    var dnndocsBaseUrl = 'https://dnndocs.ir/';
     var original_referer = encodeURIComponent(dnndocsBaseUrl + _path.replace('.md', '.html'));
     var url = original_referer;
     var text = encodeURIComponent(title) + '%20%7C%20DNN%20Docs%20%7C%20%23DNNCMS';
@@ -41,7 +41,7 @@ function getTwitterShareHref(_path, title) {
 
 function getLinkedInShareHref(_path) {
     if (!_path) return '';
-    var dnndocsBaseUrl = 'https://dnndocs.com/';
+    var dnndocsBaseUrl = 'https://dnndocs.ir/';
     var url = encodeURIComponent(dnndocsBaseUrl + _path.replace('.md', '.html'));
     var linkedInShareHref = 'https://www.linkedin.com/cws/share?url=' + url;
     return linkedInShareHref;
@@ -49,7 +49,7 @@ function getLinkedInShareHref(_path) {
 
 function getFacebookShareHref(_path) {
     if (!_path) return '';
-    var dnndocsBaseUrl = 'https://dnndocs.com/';
+    var dnndocsBaseUrl = 'https://dnndocs.ir/';
     var url = encodeURIComponent(dnndocsBaseUrl + _path.replace('.md', '.html'));
     var facebookShareHref = 'https://www.facebook.com/sharer/sharer.php?u=' + url;
     return facebookShareHref;
@@ -57,7 +57,7 @@ function getFacebookShareHref(_path) {
 
 function getEmailShareHref(_path, title) {
     if (!_path) return '';
-    var dnndocsBaseUrl = 'https://dnndocs.com/';
+    var dnndocsBaseUrl = 'https://dnndocs.ir/';
     var subject = '[Shared%20Article]%20' + encodeURIComponent(title) + '%20|%20DNN%20Docs';
     var body = encodeURIComponent(title) + '%20|%20DNN%20Docs%0A%0A' + encodeURIComponent(dnndocsBaseUrl + _path.replace('.md', '.html')) + '%0A%0A';
     return 'mailto:?subject=' + subject + '&body=' + body;
